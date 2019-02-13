@@ -1,0 +1,27 @@
+{
+  "name": "vapi-stock-price",
+  "version": "1.0.0",
+  "description": "Call a number, select a stock from an IVR and have the current price read to you via TTS.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexmo-community/vapi-stock-price.git"
+  },
+  "author": "Mark Lewin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nexmo-community/vapi-stock-price/issues"
+  },
+  "homepage": "https://github.com/nexmo-community/vapi-stock-price#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "dotenv-parse-variables": "^0.2.0",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "nodemon": "^1.18.10"
+  }
+}
