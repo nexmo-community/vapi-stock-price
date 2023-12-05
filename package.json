@@ -22,6 +22,6 @@
     "dotenv-parse-variables": "^0.2.0",
     "express": "^4.16.4",
     "http": "0.0.0",
-    "nodemon": "^1.18.10"
+    "nodemon": "^3.0.0"
   }
 }
